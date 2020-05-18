@@ -3,20 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='./style/style.css' rel="stylesheet">
     <title>Gerador RGB</title>
 </head>
 <body>
     <h1></h1>
     <form>
-        <p>R: <input type="range"  min="0" max="255" id= "vermelho" > <input type="text" id="red" size="3"></p>
-        <p>G: <input type="range"  min="0" max="255" id= "verde" > <input type="text" id="green" size="3"></p>
-        <p>B: <input type="range"  min="0" max="255" id= "azul" > <input type="text" id="blue" size="3"></p>
-        
-        
-        
-
+        <p>R: <input type="range" value="0" min="0" max="255" id= "vermelho" > <input type="text" value="0" id="red" size="3"></p>
+        <p>G: <input type="range" value="0" min="0" max="255" id= "verde" > <input type="text" value="0" id="green" size="3"></p>
+        <p>B: <input type="range" value="0" min="0" max="255" id= "azul" > <input type="text" value="0" id="blue" size="3"></p>
     </form>
-
+    <div id="cor">
+        
+    </div>
     
     <script src='./js/scripts.js'></script>
 </body>
