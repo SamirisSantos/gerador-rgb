@@ -10,7 +10,7 @@ function start(){
     var titulo = document.querySelector('h1');
     titulo.textContent = "Gerador RGB";
     titulo.style.color = 'black';
-    titulo.style.fontFamily = 'sans-serif';
+    titulo.style.font= 'bold sans-serif';
 
    
     var vermelho = document.querySelector('#vermelho');
@@ -49,7 +49,6 @@ function numberB(event){
 
 function rgb (){
 
-    console.log(r,g,b);
     document.getElementById('cor').style.backgroundColor = "rgb("+r+","+g+","+b+")";
 
 }
